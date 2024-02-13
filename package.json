@@ -1,0 +1,23 @@
+{
+    "name": "micro-frontend-arch",
+    "version": "1.0.0",
+    "description": "Demo of a dynamic Micro-frontend architecture",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "npm run dev",
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    },
+    "keywords": [],
+    "author": "François Roget",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.2.4",
+        "turbo": "^1.12.3"
+    }
+}

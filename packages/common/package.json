@@ -1,0 +1,13 @@
+{
+    "name": "@mfe-arch/common",
+    "version": "0.0.1",
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "scripts": {
+        "dev": "echo No Dev required",
+        "build": "echo 'No Build required'",
+        "test": "echo 'No Test required'",
+        "lint": "echo 'No Lint required'"
+    },
+    "dependencies": {}
+}

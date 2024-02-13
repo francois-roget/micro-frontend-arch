@@ -1,0 +1,20 @@
+{
+	"name": "@mfe-arch/config",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"devDependencies": {
+		"assets-webpack-plugin": "^7.1.1",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.10.0",
+		"mini-css-extract-plugin": "^2.8.0",
+		"sass-loader": "^14.1.0",
+		"style-loader": "^3.3.4",
+		"ts-loader": "^9.5.1",
+		"webpack": "^5.90.1",
+		"webpack-cli": "^5.1.4"
+	},
+	"keywords": [],
+	"author": "François Roget",
+	"license": "ISC"
+}

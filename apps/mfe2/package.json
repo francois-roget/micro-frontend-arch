@@ -1,0 +1,20 @@
+{
+	"name": "mfe2",
+	"version": "1.0.0",
+	"description": "",
+	"MfeModuleName": "mfe2",
+	"main": "index.js",
+	"scripts": {
+		"dev": "run-p build:watch serve:local",
+		"build:watch": "webpack --watch --config ../../packages/config/webpack.config.js",
+		"serve:local": "servor ./dist '' 3003",
+		"build": "webpack --config ../../packages/config/webpack.config.js"
+	},
+	"keywords": [],
+	"author": "François Roget",
+	"license": "ISC",
+	"devDependencies": {
+		"@mfe-arch/config": "*",
+		"@types/react": "^18.2.55"
+	}
+}

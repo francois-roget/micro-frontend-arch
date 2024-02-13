@@ -1,0 +1,13 @@
+.header {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #cecece;
+}
+
+.login-info {
+	text-align: end;
+}
+
+.login-info > button {
+	margin-left: 1em;
+}

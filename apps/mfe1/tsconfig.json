@@ -1,0 +1,3 @@
+{
+	"extends": "@mfe-arch/config/tsconfig.mfe.json"
+}

@@ -1,0 +1,20 @@
+.cards-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+}
+
+.loginCard {
+	min-height: 5em;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	vertical-align: center;
+	padding: 2em;
+	border-radius: 0.5em;
+}
+
+.loginBtn {
+	margin-top: 1em;
+	width: 100%;
+}
