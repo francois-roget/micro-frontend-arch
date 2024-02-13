@@ -1,0 +1,21 @@
+.portal {
+	height: 100%;
+}
+
+.layout {
+	margin-top: 2em;
+	display: flex;
+	height: 100%;
+}
+
+.menu {
+	width: 20em;
+	padding: 1em;
+	background-color: #cecece;
+	border-radius: 0.5em;
+}
+
+.content {
+	flex: 1;
+	padding: 1em;
+}
